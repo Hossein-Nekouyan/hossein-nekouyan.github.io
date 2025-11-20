@@ -9,56 +9,37 @@ redirect_from:
 
 {% include base_path %}
 
+> **Download:** You can download my CV here — [PDF](/files/CV_Hossein_Nekouyan_Jazi.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada — **Jan 2023 – Mar 2025** &nbsp;·&nbsp; GPA: **3.9/4.0**  
+  * **Thesis:** *Randomized Posted Pricing and Rounding Schemes for Online Selection and Matching*  
+  * **Coursework:** Theoretical Foundations of Reinforcement Learning; Approximation Algorithms; Randomized Algorithms; Optimization and Decision-Making under Uncertainty
 
-Work experience
+* **B.Sc., Computer Science**, University of Tehran, Tehran, Iran — **Sep 2018 – Jul 2022** &nbsp;·&nbsp; GPA: **3.71/4.0**  
+  * **Key coursework:** Graph Theory and Applications; Number Theory; Algebra I; Linear Algebra; Strategic Games I; Fundamentals of Logic; Design and Analysis of Algorithms; Statistical Methods; Theory of Computation; Introduction to Bioinformatics; Differential Equations
+
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Assistant (full-time)**, Alberta Machine Intelligence Institute (Amii), University of Alberta — Edmonton, Canada &nbsp;·&nbsp; **Apr 2025 – Present**  
+  * Supervisor: **Dr. Xiaoqi Tan**  
+  * Focus: online algorithms, competitive analysis, pricing mechanisms.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Graduate Research Fellowship**, University of Alberta — Edmonton, Canada &nbsp;·&nbsp; **Jan 2023 – Jan 2025**  
+  * Research in online algorithms, competitive analysis, and pricing mechanisms.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Teaching Assistant**, University of Tehran — Tehran, Iran &nbsp;·&nbsp; **Apr 2022**  
+  * Courses: Advanced Programming; Data Structures and Algorithms; Design and Analysis of Algorithms; Graph Theory; Introduction to Bioinformatics.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Programming:** Python, C++, Java, LaTeX  
+* **Tools:** Git, Linux, Overleaf, Jupyter, VS Code  
+* **Languages:** English (fluent), Persian (native)

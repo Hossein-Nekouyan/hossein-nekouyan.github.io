@@ -5,32 +5,127 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if site.author.googlescholar %}
+<div class="wordwrap">
+  Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</div>
 {% endif %}
 
+<!-- ========== Styles: one card per line, color-coded tags ========== -->
+<style>
+  /* Single-column list */
+  .pub-list { display:block; margin:.75rem 0 1.5rem 0; }
+  .pub-card {
+    --accent: #888; /* default; overridden inline per section */
+    background: color-mix(in srgb, var(--accent) 8%, #fff);
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, #ddd);
+    border-left: .40rem solid var(--accent);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    margin: 0 0 1rem 0;         /* one per line */
+    box-shadow: 0 1px 0 rgba(0,0,0,.03);
+  }
+  .pub-header { margin-bottom: .35rem; }
+  .pub-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: .18rem .50rem;
+    border-radius: .40rem;
+    margin-right: .55rem;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .pub-title {
+    display: inline; font-size: 1.05rem; font-weight: 700;
+  }
+  .pub-title a { color:#0a0a0a; text-decoration:none; }
+  .pub-title a:hover { text-decoration:underline; }
+  .pub-meta { color:#555; font-size:.9rem; margin:.25rem 0 .35rem 0; }
+  .pub-excerpt { margin:.35rem 0 0 0; }
+  .pub-actions { margin-top:.5rem; }
+  .pub-btn {
+    display:inline-block; font-size:.8rem; padding:.25rem .6rem; border-radius:.35rem;
+    border:1px solid var(--accent); color:var(--accent); text-decoration:none; margin-right:.4rem;
+  }
+  .pub-btn:hover { background: color-mix(in srgb, var(--accent) 12%, #fff); }
+  .pub-section { margin-top: 1.6rem; }
+</style>
 
 
+
+<!-- ========== Fallback: anything uncategorized goes under PREPRINT (renamed from "Other") ========== -->
+{% assign known = "conferences,preprint,thesis,workshop" | split: "," %}
+{% assign other = '' | split: '' %}
+{% for pub in site.publications %}
+  {% unless known contains pub.category %}
+    {% assign other = other | push: pub %}
+  {% endunless %}
+{% endfor %}
+{% assign other = other | sort: "date" | reverse %}
+
+{% if other.size > 0 %}
+  <h2 class="pub-section" id="preprint">Preprints</h2>
+  <div class="pub-list">
+    {% for pub in other %}
+      {% assign href = pub.paperurl | default: pub.url | relative_url %}
+      <article class="pub-card" style="--accent:#7a3cff;">
+        <div class="pub-header">
+          <span class="pub-tag">{% if pub.venue %}{{ pub.venue }}{% else %}PREPRINT{% endif %}</span>
+          <span class="pub-title"><a href="{{ href }}">{{ pub.title }}</a></span>
+        </div>
+        <div class="pub-meta">
+          {% if pub.authors %}{{ pub.authors }}{% endif %}
+          {% if pub.date %} · {{ pub.date | date: "%Y-%m-%d" }}{% endif %}
+        </div>
+        {% if pub.excerpt %}<div class="pub-excerpt">{{ pub.excerpt }}</div>{% endif %}
+        <div class="pub-actions">
+          {% if pub.paperurl %}<a class="pub-btn" href="{{ pub.paperurl }}">PDF</a>{% endif %}
+          {% if pub.code %}<a class="pub-btn" href="{{ pub.code }}">Code</a>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<!-- ========== Ordered sections: PREPRINT, Thesis, Conferences, Workshops ========== -->
+{% assign sections = "preprint:PREPRINT:#7a3cff|thesis:Thesis:#ff7b00|conferences:Conferences:#0f62fe|workshop:Workshops:#11998e" | split:"|" %}
+
+{% for s in sections %}
+  {% assign parts = s | split: ":" %}
+  {% assign key = parts[0] %}
+  {% assign label = parts[1] %}
+  {% assign color = parts[2] %}
+  {% assign items = site.publications | where:"category", key | sort:"date" | reverse %}
+
+  {% if items.size > 0 %}
+    <h2 class="pub-section" id="{{ label | slugify }}">{{ label }}</h2>
+    <div class="pub-list">
+      {% for pub in items %}
+        {% assign href = pub.paperurl | default: pub.url | relative_url %}
+        <article class="pub-card" style="--accent: {{ color }};">
+          <div class="pub-header">
+            <span class="pub-tag">{% if pub.venue %}{{ pub.venue }}{% else %}{{ label }}{% endif %}</span>
+            <span class="pub-title"><a href="{{ href }}">{{ pub.title }}</a></span>
+          </div>
+          <div class="pub-meta">
+            {% if pub.authors %}{{ pub.authors }}{% endif %}
+            {% if pub.date %} · {{ pub.date | date: "%Y-%m-%d" }}{% endif %}
+          </div>
+          {% if pub.excerpt %}<div class="pub-excerpt">{{ pub.excerpt }}</div>{% endif %}
+          <div class="pub-actions">
+            {% if pub.paperurl %}<a class="pub-btn" href="{{ pub.paperurl }}">PDF</a>{% endif %}
+            {% if pub.code %}<a class="pub-btn" href="{{ pub.code }}">Code</a>{% endif %}
+            {% if pub.slidesurl %}<a class="pub-btn" href="{{ pub.slidesurl }}">Slides</a>{% endif %}
+            {% if pub.posterurl %}<a class="pub-btn" href="{{ pub.posterurl }}">Poster</a>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
