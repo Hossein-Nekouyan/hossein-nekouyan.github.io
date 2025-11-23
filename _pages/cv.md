@@ -11,17 +11,6 @@ redirect_from:
 
 > **Download:** You can download my CV here — [PDF](/files/CV_Jul_2025.pdf)
 
-Summary
-======
-Recent M.Sc. graduate in Computer Science from the University of Alberta; supervised by Dr. Xiaoqi Tan. Currently a full-time Research Assistant in the Department of Computing Science at UAlberta, working with Dr. Tan and Dr. Bo Sun. Publications include work appearing at WWW, WINE, NeurIPS, and ACM SIGMETRICS. Actively seeking Ph.D. positions.
-
-Research Interests
-======
-* Combinatorial optimization and polyhedral methods
-* Computational Economics
-* Algorithmic game theory and mechanism design
-* Decision making under uncertainty
-
 Education
 ======
 * **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada — **Jan 2023 – Mar 2025** * **GPA:** 3.9/4.0  
