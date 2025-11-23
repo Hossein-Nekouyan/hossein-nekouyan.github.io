@@ -144,4 +144,4 @@ My research focuses on **online optimization** and **mechanism design**, with ap
 
 ### Contact
 Edmonton, Canada · [nekouyan@ualberta.ca](mailto:nekouyan@ualberta.ca) ·
-[CV](/files/CV_Hossein_Nekouyan_Jazi.pdf)
+[CV](/files/CV.pdf)
