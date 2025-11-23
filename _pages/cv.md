@@ -9,28 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
-> **Download:** You can download my CV here — [PDF](/files/CV_Hossein_Nekouyan_Jazi.pdf)
+> **Download:** You can download my CV here — [PDF](/files/CV_Jul_2025.pdf)
+
+Summary
+======
+Recent M.Sc. graduate in Computer Science from the University of Alberta; supervised by Dr. Xiaoqi Tan. Currently a full-time Research Assistant in the Department of Computing Science at UAlberta, working with Dr. Tan and Dr. Bo Sun. Publications include work appearing at WWW, WINE, NeurIPS, and ACM SIGMETRICS. Actively seeking Ph.D. positions.
+
+Research Interests
+======
+* Combinatorial optimization and polyhedral methods
+* Computational Economics
+* Algorithmic game theory and mechanism design
+* Decision making under uncertainty
 
 Education
 ======
-* **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada — **Jan 2023 – Mar 2025** &nbsp;·&nbsp; GPA: **3.9/4.0**  
-  * **Thesis:** *Randomized Posted Pricing and Rounding Schemes for Online Selection and Matching*  
-  * **Coursework:** Theoretical Foundations of Reinforcement Learning; Approximation Algorithms; Randomized Algorithms; Optimization and Decision-Making under Uncertainty
+* **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada — **Jan 2023 – Mar 2025** * **GPA:** 3.9/4.0  
+  * **Thesis:** *Randomized Posted Pricing and Rounding Schemes for Online Selection and Matching* (Nominated for best thesis award)
+  * **Supervisor:** Dr. Xiaoqi Tan
+  * **Coursework:** Theoretical Foundations of Reinforcement Learning; Approximation Algorithms; Randomized Algorithms; Optimization and Decision-Making under Uncertainty.
 
-* **B.Sc., Computer Science**, University of Tehran, Tehran, Iran — **Sep 2018 – Jul 2022** &nbsp;·&nbsp; GPA: **3.71/4.0**  
-  * **Key coursework:** Graph Theory and Applications; Number Theory; Algebra I; Linear Algebra; Strategic Games I; Fundamentals of Logic; Design and Analysis of Algorithms; Statistical Methods; Theory of Computation; Introduction to Bioinformatics; Differential Equations
+* **B.Sc., Computer Science**, University of Tehran, Tehran, Iran — **Sep 2018 – Jul 2022** * **GPA:** 18.41/20.0  
+  * **Key coursework:** Graph Theory and Applications; Number Theory; Algebra I; Linear Algebra; Strategic Games I; Fundamentals of Logic; Design and Analysis of Algorithms; Statistical Methods; Theory of Computation; Introduction to Bioinformatics; Differential Equations.
 
-Experience
+Research Experience
 ======
-* **Research Assistant (full-time)**, Alberta Machine Intelligence Institute (Amii), University of Alberta — Edmonton, Canada &nbsp;·&nbsp; **Apr 2025 – Present**  
-  * Supervisor: **Dr. Xiaoqi Tan**  
-  * Focus: online algorithms, competitive analysis, pricing mechanisms.
+* **Full-time Research Assistant**, Alberta Machine Intelligence Institute (Amii), University of Alberta — Edmonton, Canada  
+  * **Apr 2025 – Present** * **Supervisor:** Dr. Xiaoqi Tan
 
-* **Graduate Research Fellowship**, University of Alberta — Edmonton, Canada &nbsp;·&nbsp; **Jan 2023 – Jan 2025**  
-  * Research in online algorithms, competitive analysis, and pricing mechanisms.
+* **Graduate Research Fellowship**, University of Alberta — Edmonton, Canada  
+  * **Jan 2023 – Jan 2025** * **Supervisor:** Dr. Xiaoqi Tan
 
-* **Teaching Assistant**, University of Tehran — Tehran, Iran &nbsp;·&nbsp; **Apr 2022**  
-  * Courses: Advanced Programming; Data Structures and Algorithms; Design and Analysis of Algorithms; Graph Theory; Introduction to Bioinformatics.
+Teaching Experience
+======
+* **Graduate Teaching Assistant**, University of Alberta — Edmonton, Canada  
+  * **Jan 2023 – Apr 2025** * **Courses:** Algorithm I (four terms) and Algorithm II (one term).
+  * **Responsibilities:** Teaching, tutorials, marking, and student support.
+
+* **Teaching Assistant**, University of Tehran — Tehran, Iran  
+  * **Dec 2019 – Apr 2022** * **Courses:** Advanced Programming; Data Structures and Algorithms; Design and Analysis of Algorithms; Graph Theory; Introduction to Bioinformatics.
 
 Publications
 ======
@@ -38,8 +55,23 @@ Publications
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
+Working Projects
+======
+* **The Max k-Colorable Subgraph Problem on Unit Disk and Comparability Graphs**
+
 Skills
 ======
 * **Programming:** Python, C++, Java, LaTeX  
 * **Tools:** Git, Linux, Overleaf, Jupyter, VS Code  
 * **Languages:** English (fluent), Persian (native)
+
+References
+======
+* **Dr. Xiaoqi Tan** — Assistant Professor, Dept. of Computing Science, University of Alberta  
+  * [https://xiaoqitan.org/](https://xiaoqitan.org/)
+
+* **Dr. Zachary Friggstad** — Associate Professor, Dept. of Computing Science, University of Alberta  
+  * [https://friggstad.github.io/](https://friggstad.github.io/)
+
+* **Dr. Bo Sun** — Assistant Professor, School of Electrical Engineering and Computer Science, University of Ottawa  
+  * [https://sunbo-online.github.io/](https://sunbo-online.github.io/)
