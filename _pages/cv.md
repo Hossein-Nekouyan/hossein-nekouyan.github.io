@@ -11,6 +11,6 @@ redirect_from:
 
 ---
 
-## 📄 **[Download my CV (PDF)](/files/CV_Jul_2025.pdf)**
+## 📄 **[Download my CV (PDF)](/files/CV.pdf)**
 
 
