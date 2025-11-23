@@ -1,16 +1,8 @@
----
-layout: archive
-title: "Curriculum Vitae"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+--- 
+layout: archive 
+title: "Curriculum Vitae" 
+permalink: /cv/ author_profile: true 
+redirect_from: - /resume 
+--- 
 
-{% include base_path %}
-
----
-
-## 📄 **[Download my CV (PDF)](/files/CV.pdf)**
-
-
+ ## 📄 **[Download my CV (PDF)](/files/CV.pdf)**
