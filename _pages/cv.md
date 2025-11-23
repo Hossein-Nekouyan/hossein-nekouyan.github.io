@@ -13,34 +13,31 @@ redirect_from:
 
 Education
 ======
-* **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada — **Jan 2023 – Mar 2025**  **GPA:** 3.9/4.0  
-  * **Thesis:** Randomized Posted Pricing and Rounding Schemes for Online Selection and Matching* (Nominated for best thesis award)
+* **M.Sc., Computer Science**, University of Alberta, Edmonton, Canada —- **Jan 2023 – Mar 2025** -- **GPA:** 3.9/4.0  
+  * **Thesis:** Randomized Posted Pricing and Rounding Schemes for Online Selection and Matching (Nominated for best thesis award)
   * **Supervisor:** Dr. Xiaoqi Tan
   * **Coursework:** Theoretical Foundations of Reinforcement Learning; Approximation Algorithms; Randomized Algorithms; Optimization and Decision-Making under Uncertainty.
 
-* **B.Sc., Computer Science**, University of Tehran, Tehran, Iran — **Sep 2018 – Jul 2022**  **GPA:** 18.41/20.0  
+* **B.Sc., Computer Science**, University of Tehran, Tehran, Iran — **Sep 2018 – Jul 2022**  -- **GPA:** 18.41/20.0  
   * **Key coursework:** Graph Theory and Applications; Number Theory; Algebra I; Linear Algebra; Strategic Games I; Fundamentals of Logic; Design and Analysis of Algorithms; Statistical Methods; Theory of Computation; Introduction to Bioinformatics; Differential Equations.
 
 Research Experience
 ======
-* **Full-time Research Assistant**, Alberta Machine Intelligence Institute (Amii), University of Alberta — Edmonton, Canada  
-  * **Apr 2025 – Present**  
+* **Full-time Research Assistant**, Alberta Machine Intelligence Institute (Amii), University of Alberta — Edmonton, Canada  (**Apr 2025 – Present**)
   
   **Supervisor:** Dr. Xiaoqi Tan
 
-* **Graduate Research Fellowship**, University of Alberta — Edmonton, Canada  
-  * **Jan 2023 – Jan 2025** 
-  * **Supervisor:** Dr. Xiaoqi Tan
+* **Graduate Research Fellowship**, University of Alberta — Edmonton, Canada  (**Jan 2023 – Jan 2025**) 
+  
+   **Supervisor:** Dr. Xiaoqi Tan
 
 Teaching Experience
 ======
-* **Graduate Teaching Assistant**, University of Alberta — Edmonton, Canada  
-  * **Jan 2023 – Apr 2025** 
+* **Graduate Teaching Assistant**, University of Alberta — Edmonton, Canada  (**Jan 2023 – Apr 2025**)
   * **Courses:** Algorithm I (four terms) and Algorithm II (one term).
   * **Responsibilities:** Teaching, tutorials, marking, and student support.
 
-* **Teaching Assistant**, University of Tehran — Tehran, Iran  
-  * **Dec 2019 – Apr 2022** 
+* **Teaching Assistant**, University of Tehran — Tehran, Iran  ( **Dec 2019 – Apr 2022** )
   * **Courses:** Advanced Programming; Data Structures and Algorithms; Design and Analysis of Algorithms; Graph Theory; Introduction to Bioinformatics.
 
 Publications
