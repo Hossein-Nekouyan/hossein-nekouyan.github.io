@@ -11,8 +11,6 @@ redirect_from:
 
 ---
 
-## 📄 **Download CV**
-<div class="notice--primary" markdown="1" style="padding:12px; font-size: 1.05rem;">
-👉 **[Download my CV (PDF)](/files/CV_Jul_2025.pdf)**  
-</div>
+## 📄 **[Download my CV (PDF)](/files/CV_Jul_2025.pdf)**
+
 
