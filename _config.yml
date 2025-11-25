@@ -10,7 +10,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Hossein Neokuyna Jazi – Personal Website!"
+title                    : "Hossein Neokuyna Jazi (Personal Website)"
 title_separator          : "-"
 name                     : &name "Hossein Nekouyan Jazi"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
