@@ -6,6 +6,6 @@ permalink: /publication/2025-arxiv-online-selection-limited-price-change-risk
 date: 2025-11-18
 paperurl: "https://arxiv.org/abs/2507.19649"
 selected: true
-authors: "Hossein Nekouyan Jazi, Bo Sun, Xiaoqi Tan"
+authors: "Hossein Nekouyan Jazi, Bo Sun, Raouf Boutaba, Xiaoqi Tan"
 ---
 
