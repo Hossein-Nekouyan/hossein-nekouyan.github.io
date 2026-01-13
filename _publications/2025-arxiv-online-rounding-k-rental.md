@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 venue: "WWW 2026 (Economics, online markets and human computation)"
 permalink: /publication/2025-arxiv-online-rounding-k-rental
-date: 2025-01-13
+date: 2026-01-13
 paperurl: "https://arxiv.org/abs/2507.19649"
 selected: true
 authors: "Hossein Nekouyan Jazi, Bo Sun, Raouf Boutaba, Xiaoqi Tan"
