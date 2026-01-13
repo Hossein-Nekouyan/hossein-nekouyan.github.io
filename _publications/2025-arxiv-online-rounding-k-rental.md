@@ -1,7 +1,7 @@
 ---
 title: "Online Rounding Schemes for k-Rental Problems"
 collection: publications
-category: ongoing
+category: conferences
 venue: "WWW 2025"
 permalink: /publication/2025-arxiv-online-rounding-k-rental
 date: 2025-07-25
