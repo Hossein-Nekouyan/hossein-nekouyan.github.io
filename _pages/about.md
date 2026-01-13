@@ -76,7 +76,7 @@ My research focuses on **online optimization** and **mechanism design**, with ap
   {% if pub.paperurl %}{% assign link = pub.paperurl %}{% else %}{% assign link = pub.url | relative_url %}{% endif %}
 
   <h3 class="featured-title">
-    <a href="{{ link }}"><span class="thesis-tag">WWW 2026 (Economics, online markets and human computation)</span>{{ pub.title }}</a>
+    <a href="{{ link }}"><span class="thesis-tag">WWW 2026 (Track: Economics, Online Markets and Human Computation)</span>{{ pub.title }}</a>
   </h3>
   {% if pub.authors %}
   **Authors:** {{ pub.authors }}
