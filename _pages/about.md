@@ -13,7 +13,7 @@ I’m a recent M.Sc. graduate in Computer Science from the **University of Alber
 My research focuses on **online optimization** and **mechanism design**, with applications to resource allocation in online markets. My work has appeared in venues such as **WINE**, **ACM SIGMETRICS**, and **Web Conference**. 
 
 <div class="notice--warning" markdown="1">
-<strong>In September, I will join the **Ph.D. program in Computer Science** at the **Cheriton School of Computer Science, University of Waterloo**, under the co-supervision of **Kimon Fountoulakis** and **Elena Grigorescu**.</strong>
+<strong>In September, I will join the **Ph.D. program in Computer Science** at the **Cheriton School of Computer Science, University of Waterloo**.</strong>
 </div>
 
 ---
