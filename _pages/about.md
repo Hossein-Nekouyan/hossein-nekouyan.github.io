@@ -43,7 +43,7 @@ My research focuses on **online optimization** and **mechanism design**, with ap
 </style>
 
 <div class="notice--primary" markdown="1">
-{% assign paper_permalink = "/publication/2025-arxiv-online-selection-limited-price-change-risk" %}
+{% assign paper_permalink = "/publication/2025-risk-sensitive-online-selection-with-bounded-adaptivity" %}
 {% assign pub = site.publications | where: "permalink", paper_permalink | first %}
 
 {% if pub %}
